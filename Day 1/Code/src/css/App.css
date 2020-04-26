@@ -1,44 +1,72 @@
-.App {
+body {
+  font-family: "Baloo Paaji 2", "Roboto", sans-serif;
+  background-color: #f27c73;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  height: 80px;
+  padding: 0 60px 0 60px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  color: #444444;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-link {
+  color: #444444;
+  letter-spacing: 1px;
+  margin: 0 15px 0 15px;
+}
+.nav-link.active {
+  text-decoration: underline;
+}
+.navbar .fa-mobile {
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0 20px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-content {
+  width: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
-
-.App-header {
-  margin: 20px 0 20px 0;
+.mission-statement {
+  width: 700px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-.list-group {
-  width: 500px;
-}
-.list-group-item {
+.promo {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  width: 75%;
+  margin-top: 30px;
 }
-img {
-  width: 200px;
+.promo-item {
+  margin: 0 30px 0 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.promo-list-item {
+  list-style-type: none;
+  font-size: 14px;
+}
+.promo-image {
+  width: 240px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+ul {
+  margin-left: -40px;
 }
