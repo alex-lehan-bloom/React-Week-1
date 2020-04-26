@@ -1,24 +1,29 @@
 import React from "react";
+import ListItem from "./components/ListItem";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click Me
-        </a>
-      </header>
+      <h1 className="App-header">Exercise 2 - Travel Locations</h1>
+      <ul className="list-group">
+        <ListItem
+          name={"Tel Aviv"}
+          img_src={"./images/day_1/tel_aviv.jpg"}
+          location={"https://goo.gl/maps/xv5mFHnDUou87HCA8"}
+        ></ListItem>
+        <ListItem
+          name={"Amherst"}
+          img_src={"./images/day_1/amherst_ma.jpg"}
+          location={"https://goo.gl/maps/f6JJDn8Rb6ucgjFv9"}
+        ></ListItem>
+        <ListItem
+          name={"Oxford"}
+          img_src={"./images/day_1/oxford.jpg"}
+          location={"https://goo.gl/maps/YyLQV1e7BF4kz6PN9"}
+        ></ListItem>
+      </ul>
     </div>
   );
 }

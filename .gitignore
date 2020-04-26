@@ -1,4 +1,5 @@
 *.pdf
 *.text
 *.docx
+*node_modules/
 *Exercises/
