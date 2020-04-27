@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Amherst Pizza",
+    "image": "./images/pizza.png",
+    "desc": "description description description description description",
+    "price": 12
+  }
+]
