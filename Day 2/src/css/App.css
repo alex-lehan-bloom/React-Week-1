@@ -1,7 +1,26 @@
 body {
   display: flex;
   justify-content: center;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+#root {
+  width: 100%;
+}
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
   margin-bottom: 30px;
+  text-decoration: underline;
+}
+.form {
+  width: 800px;
+}
+.list-group {
+  text-align: left;
 }

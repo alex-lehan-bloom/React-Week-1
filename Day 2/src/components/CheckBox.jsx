@@ -21,7 +21,7 @@ class CheckBox extends React.Component {
             className="form-check-input"
             id="exampleCheck1"
             defaultChecked={isChecked}
-            onChange={(event) => this.handleCheckOrUncheck(event)}
+            onChange={() => this.handleCheckOrUncheck()}
           />
           <label className="form-check-label">
             {isChecked ? "Uncheck Me" : "Check Me"}
