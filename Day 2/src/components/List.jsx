@@ -11,7 +11,4 @@ function List(props) {
       <ListGroup.Item className="list-four">{item.country}</ListGroup.Item>
     </ListGroup>
   ));
-  return <div>{list_of_lis}</div>;
-}
-
-export default List;
+  return <div>{list_of_lis}</div>;T
