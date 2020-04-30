@@ -1,0 +1,10 @@
+{
+  "payments": {
+    "successful": { "title": "payment successfully done.", "color": "green" },
+    "unsuccessful": {
+      "title": "payment unsuccessfully done.",
+      "color": "red"
+    }
+  },
+  "user": { "username": "test", "password": "passwd123" }
+}

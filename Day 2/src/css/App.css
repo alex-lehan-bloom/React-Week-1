@@ -1,26 +1,25 @@
 body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+p {
+  font-size: 10px;
+  color: #6e7a90;
+}
+.back-button {
+  transform: rotate(180deg) scaleX(-1);
+  border-radius: 0;
   display: flex;
   justify-content: center;
-  padding: 50px;
-  text-align: center;
-  width: 100%;
+  align-items: center;
+  width: 30px;
+  height: 30px;
 }
-#root {
-  width: 100%;
-}
-.page-content {
+
+.main-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-h1 {
-  margin-bottom: 30px;
-  text-decoration: underline;
-}
-.form {
-  width: 800px;
-}
-.list-group {
-  text-align: left;
+  padding: 0 10% 0 10%;
 }
